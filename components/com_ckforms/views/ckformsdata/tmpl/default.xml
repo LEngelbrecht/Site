@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CKFORMS_0A">
+		<message>COM_CKFORMS_0B</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_ckforms/elements">
+		<fieldset name="request">
+			<field
+				name="id"
+				type="ckprofiles"
+				label="COM_CKFORMS_SELECT_DATA"
+				description="COM_CKFORMS_SELECT_DATA_DESC">
+			</field>			
+		</fieldset>
+</fields>		
+			<fields name="params">
+<fieldset name="basic">
+			
+			<field  name="show_columnheader" default="1" 
+			type="radio"  
+			label="COM_CKFORMS_COLUMN_HEADERS" 
+			description="COM_CKFORMS_COLUMN_HEADERS_DESC">
+				<option value="1">COM_CKFORMS_SHOW</option>
+				<option value="0">COM_CKFORMS_HIDE</option>
+			</field>
+			<field name="show_tableborder" default="1" 
+			type="radio" 
+			label="COM_CKFORMS_TABLE_BORDERS"
+			description="COM_CKFORMS_TABLE_BORDERS_DESC">
+				<option value="1">COM_CKFORMS_SHOW</option>
+				<option value="0">COM_CKFORMS_HIDE</option>
+			</field>
+			
+		</fieldset>
+	
+	
+	
+	</fields>
+</metadata>

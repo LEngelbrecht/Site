@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+	<name>CKForms Package</name>
+	<packagename>ckforms</packagename>
+	<version>2.5.3</version>
+	<url>http://ckforms.cookex.eu/</url>
+	<packager>Sarki</packager>
+	<packagerurl>http://www.joomlatutos.com</packagerurl>
+	<description><![CDATA[ 
+	<h2>CK Forms - Gestionnaire de formulaires</h2>
+	<p>Ce paquet d'installation contient le composant CK Forms et son plugin de contenu pour afficher les formulaires dans des articles.</p>
+	<p style="font-weight:normal">Le composant de formulaire CK Forms est très simple à manier.
+	<ul><li style="font-weight:normal">Il permet l'ajout de tous les champs habituels dont l'envoi de fichiers joints.</li>
+	<li style="font-weight:normal">Il propose également l'intégration d'un système antispam.</li></ul></p>
+	<p style="font-weight:normal"><strong>Note : </strong>pour insérer des formulaires dans des contenus, vous devez <a href="index.php?option=com_plugins&filter_type=content&filter_search=forms">publier le plug-in <i>Contenu - Formulaire CK Forms</i>...</a></p>
+	<p style="font-weight:normal">Création et réalisation pour Joomla 1.5x : <a href="http://www.cookex.eu" target="_blank">www.cookex.eu</a><br />
+	Adatation pour Jommla 2.5 + : <a href="http:sysinfomac.fr" target="_blank">Sysinfomac</a> et <a href="http:sysinfomac.fr" target="_blank">Sarki</a></p>
+	]]></description>
+	<files folder="packages">
+		<file type="component" id="com_ckforms">com_ckforms_2-5-3.zip</file>
+		<file type="plugin" id="plg_ckforms" group="content">plg_ckforms_2-5-1.zip</file>
+	</files>
+</extension>

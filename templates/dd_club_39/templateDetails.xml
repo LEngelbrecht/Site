@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>dd_club_39</name>
+    <creationDate>2014-05-09</creationDate>
+    <version>1.0</version>
+    <author>www.diablodesign.eu</author>
+    <authorUrl>http://www.diablodesign.eu</authorUrl>
+             <description><![CDATA[	<h1>DD Club 39 -  Free responsive joomla template</h1>
+			 <img src="../templates/dd_club_39/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+    <span style="font-size: 15px;font-weight:bold;">
+			DD club  39 template ,design by DiabloDesign.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!! for commercial use, you must pay a special license (10 EURO) .</span> <br />
+			    <span style="font-size: 15px;font-weight:bold;">
+			<br />DD club 39 template ,design by DiabloDesign.
+			<span style="color:green; font-weight: bold; ">!Szablonu nie można używać na stonach firmowych!!! Licencja dla stron firmowych kosztuje. (40PLN Brutto) .</span> <br />				
+			<br />Visit Diablodesign.eu: <a href="http://www.diablodesign.eu" target="_blank">http://www.diablodesign.eu</a>.Email: biuro@diablodesign.eu<br />
+			</span>	
+	
+
+	<b>Free Joomla 2.5 i 3.2 Template developed by <a target="_blank" href="http://www.diablodesign.eu">www.diablodesign.eu</a>, released under the <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0</a>.
+	<br />Our free joomla templates may be used for both personal websites.<br />
+	<br />Copyright 2014 www.diablodesign.eu - All Rights Reserved </b>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<h1>POSITION MODULES</h1>
+	<img src="../templates/dd_club_39/images/pozycje.jpg"/>
+
+	]]>
+	
+	
+	</description>
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+        <folder>js</folder>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>jquery.js</file>
+        <file>modules.js</file>
+        <file>script.js</file>
+        <file>script.responsive.js</file>
+        <file>templateDetails.xml</file>
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-3</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-6</position>
+        <position>position-7</position>
+        <position>position-8</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-15</position>
+        <position>position-16</position>
+        <position>position-17</position>
+        <position>position-18</position>
+        <position>position-19</position>
+        <position>position-20</position>
+        <position>position-21</position>
+        <position>position-22</position>
+        <position>position-23</position>
+        <position>position-24</position>
+        <position>position-25</position>
+        <position>position-26</position>
+        <position>position-27</position>
+        <position>position-28</position>
+        <position>position-29</position>
+        <position>position-30</position>
+        <position>position-31</position>
+        <position>position-32</position>
+		<position>headerinfo</position>
+    </positions>
+     <config>
+        <fields name="params">
+            <!--logo-->
+			 <fieldset name="logo" label="Configuration Logo / Konfiguracja logo"><field name="logo" type="media" label="Select image " description="Logo" default="templates/dd_club_39/images/logo.png"/>
+				</fieldset>
+			
+				
+	
+	<!--animcja-->
+				<fieldset name="animacja" label="Configuration Slideshow / Konfiguracja animacji">
+					<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić minimum 1024px na 768px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 1024px to 768px! !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="foto1" type="media" label="Upload foto 1" description="" default="templates/dd_club_39/images/background/1.jpg"/>
+			<field name="tx1" type="text" default="Crazy Night" size="50" label="Text slide 1" description="Text slide 1"/>
+			<field name="foto2" type="media" label="Upload foto 2" description="" default="templates/dd_club_39/images/background/2.jpg"/>
+			<field name="tx2" type="text" default="IN CLUB" size="50" label="Text slide 2" description="Text slide 2"/>
+			<field name="foto3" type="media" label="Upload foto 3" description="" default="templates/dd_club_39/images/background/3.jpg"/>
+			<field name="tx3" type="text" default="FREE DRINKS" size="50" label="Text slide 3" description="Text slide 3"/>
+			<field name="foto4" type="media" label="Upload foto 4" description="" default="templates/dd_club_39/images/background/4.jpg"/>
+			<field name="tx4" type="text" default="BIG BASS SYSTEM" size="50" label="Text slide 4" description="Text slide 4"/>
+			<field name="foto5" type="media" label="Upload foto 5" description="" default="templates/dd_club_39/images/background/5.jpg"/>
+			<field name="tx5" type="text" default="DJ DRAGON" size="50" label="Text slide 5" description="Text slide 5"/>
+			<field name="foto6" type="media" label="Upload foto 6" description="" default="templates/dd_club_39/images/background/6.jpg"/>
+			<field name="tx6" type="text" default="MIX VINYL" size="50" label="Text slide 6" description="Text slide 6"/>
+			<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disabled flash animation&lt;/b&gt;&lt;/a&gt;" />
+				<field name="flashc" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			
+			</fieldset>
+			
+						 <!--header info-->
+				<fieldset name="header" label="Header text information/Informacja w nagłowku">
+                 
+				  
+				  <field name="header" type="text" default="DJ.DRAGON" size="50" label="Header title / tytul" description="Header title / tytul"/>
+				  	<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić minimum 121px na 128px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 121px to 128px! !&lt;/b&gt;&lt;/a&gt;" />
+				  <field name="person" type="media" label="Upload person photo / wyślij fottografię DJ" description="" default="templates/dd_club_39/images/person.jpg"/>
+				  <field name="text1" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..." rows="8" cols="60"  label="Header Info" description="info text " />
+				  <field name="button_title" type="text" default="Read More" size="50" label="Button title / nazwa na przycisku" description="button title / nazwa na przycisku"/>
+				  <field name="button_link" type="text" default="http://" size="50" label="Button url / link przycisku" description="button url / link przycisku"/>
+<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disabled header info / enabled module position name headerinfo!&lt;/b&gt;&lt;/a&gt;" />
+<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Możesz wyłączyć informacje personalne i opublikować w tym miejscu moduł na pozycji headerinfo!&lt;/b&gt;&lt;/a&gt;" />
+				<field name="infoc" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				  </fieldset>
+						
+			<!--social-->
+			<fieldset name="social" label="Links to social networking sites / Ikony społecznościowe">	
+			
+			<field name="facebook" type="text" default="http://facebook.com" label="Facebok url:" description="facebok link" filter="string" />
+			<field name="fc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			
+			
+			<field name="twitter" type="text" default="http://twiiter.com" label="Twitter url:" description="twitter link" filter="string" />
+			<field name="tc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+				
+				<field name="youtube" type="text" default="http://youtube.com" label="youtube url:" description="youtube link" filter="string" />
+			<field name="yc" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			
+			</fieldset>
+			
+			
+				<!--scrool-->
+                   <fieldset name="scroll" label="Back To Top / Powrót na góre">
+                        <field name="scroll" type="text" default="TOP" size="50" label="Back To Top" description="Back To Top"/>
+						<field name="backc" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+						</fieldset>
+						<!--footer-->
+						<fieldset name="footer" label="Footer / Konfiguracja stopki">       
+                       <field name="footer" type="text" default="DJ CLUB" size="50" label="Site name" description="footer site name"/>
+</fieldset>
+
+        </fields>
+    </config>
+ 
+</extension>

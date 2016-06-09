@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="template" client="site">
+        <name>Topball 3 FREE</name>
+        <creationDate>12/11/14</creationDate>
+        <author>M. Terziyski</author>
+        <authorEmail>minko_81@yahoo.com</authorEmail>
+        <authorUrl>http://10templates.com/</authorUrl>
+        <copyright>Copyright (C) 2014 http://10templates.com </copyright>
+        <license>GPL</license>
+        <version>1</version>
+        <description>
+        <![CDATA[
+        <h1>Topball 3 FREE</h1>      
+        <h2><img src="../templates/Topball3free/template_thumbnail.png" /></h2>
+        <h2><a href="http://10templates.com" target="_blank">Visit our web site</a></h2>
+        <h3>Copyright &copy; 2014 10templates.com - All Rights Reserved</h3>
+        <h3><a href="http://10templates.com/template/78/Topball-3-Football-Premium-Joomla-3xx-336-35-template.html">Get all this features. GET Topball 3  PREMIUM </a></h3>
+        ]]>
+        </description>
+        <files>
+                <filename>index.php</filename>
+                <filename>index.html</filename>
+                <filename>templateDetails.xml</filename>
+                <filename>favicon.ico</filename>
+                <filename>template_thumbnail.png</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+                <folder>js</folder>
+                <folder>html</folder>
+        </files>
+        <positions>
+                <position>leftSide</position>
+                <position>rightSide</position>
+                <position>position-1</position>
+                <position>position-2</position>
+                <position>position-3</position>
+                <position>position-4</position>
+                <position>position-5</position>
+                <position>position-6</position>
+                <position>position-7</position>
+                <position>position-9</position>
+        </positions>
+        <config>
+                <fields name="params">
+                        <fieldset name="basic0" label="Show / Hide boxes">
+                                <field name="FBlikebox" type="list" default="ON" label="Switch ON/OFF Facebook like box" description="The FB Like box">
+                                        <option value="ON">ON</option>
+                                        <option value="OFF">OFF</option>
+                                </field>
+                                
+                        </fieldset>
+                        <fieldset name="basic1" label="Social icons links">
+                               <field name="note22" type="note" class="alert alert-success" label="Get more options" description="http://10templates.com/template/76/Topball-3-Football-Free-Joomla-3-template.html" />
+                                <field name="facebook-ic" type="text" default="" size="50" label="Full FB URL" description="for your Facebook fan page" />
+                                <field name="twitter-ic" type="text" default="" size="50" label="Full Twitter URL" description="for your Twitter fan page" />
+                                <field name="google-ic" type="text" default="" size="50" label="Full Google+ URL" description="for your Google+ fan page" />
+                                <field name="youtube-ic" type="text" default="" size="50" label="YouTube" description="Youtube chanel" />
+                                <field name="skype-ic" type="text" default="" size="50" label="Add yout Skype name" description="Make call Skype icon" />
+                                <field name="flickr-ic" type="text" default="" size="50" label="Add Flickr web page" description="for Flickr" />
+                                <field name="rss-ic" type="text" default="" size="50" label="rss" description="for rss" />
+                                <field name="pinterest-ic" type="text" default="" size="50" label="Add Pinterest page" description="for Flickr" />
+                                <field name="insta-ic" type="text" default="" size="50" label="Add Instagram page" description="for Instagram" />
+                        </fieldset>
+                        <fieldset name="basic2" label="YouTube videos">
+                                <field name="youTu" type="list" default="ON" label="Switch ON/OFF YouTube videos" description="The FB Like box">
+                                        <option value="ON">ON</option>
+                                        <option value="OFF">OFF</option>
+                                </field>
+                                <field name="note22" type="note" class="alert alert-success" label="Video" description="Copy/Paste YouTube last characters in URL. Code example - 6HtlmNzqQdo" />
+                                <field name="youtubeVid1" type="text" default="2Qh1DI2VS9k" size="50" label="Video 1" description="" />
+                                <field name="youtubeVid2" type="text" default="q4y1ypgttwU" size="50" label="Video 2" description="" />
+                                <field name="youtubeVid3" type="text" default="gW2UWuPTekk" size="50" label="Video 3" description="" />
+                        </fieldset>
+                        <fieldset name="basic3" label="Facebook like box settings">
+                                <field name="note22" type="note" class="alert alert-success" label="Get more options" description="http://10templates.com/template/78/Topball-3-Football-Premium-Joomla-3xx-336-35-template.html" />
+                                        <field name="fbpath" type="text" default="free.joomla.templates" size="50" label="www.facebook.com/" description="Copy the URL of the Facebook Page (without www.facebook.com)" />
+                                        <field name="fbheight" type="text" default="365" size="50" label="height default=365" description="FB like box height in pixels" />
+                                        <field name="fbColorScheme" type="list" default="light" label="Choose Color Scheme" description="Choose light or dark color">
+                                                        <option value="light">light</option>
+                                                        <option value="dark">dark</option>
+                                        </field>
+                                        <field name="fbfaces" type="list" default="No" label="Show faces" description="Choose to show your friends faces or not">
+                                                        <option value="true">Yes</option>
+                                                        <option value="false">No</option>
+                                        </field>
+                                        <field name="fbborder" type="White" default="true" label="The border color of the plugin" description="Choose your color">
+                                                        <option value="FFFFFF">White</option>
+                                                        <option value="C0C0C0">Silver</option>
+                                                        <option value="808080">Gray</option>
+                                                        <option value="000000">Black</option>
+                                                        <option value="FF0000">Red</option>
+                                                        <option value="800000">Maroon</option>
+                                                        <option value="FFFF00">Yellow</option>
+                                                        <option value="808000">Olive</option>
+                                                        <option value="00FF00">Lime</option>
+                                                        <option value="008000">Green</option>
+                                                        <option value="00FFFF">Aqua</option>
+                                                        <option value="008080">Teal</option>
+                                                        <option value="0000FF">Blue</option>
+                                                        <option value="000080">Navy</option>
+                                                        <option value="FF00FF">Fuchsia</option>
+                                                        <option value="800080">Purple</option>
+                                        </field>
+                                        <field name="fbbackground" type="list" default="true" label="The background color of the plugin" description="Choose your color">
+                                                        <option value="">None</option>
+                                                        <option value="FFFFFF">White</option>
+                                                        <option value="C0C0C0">Silver</option>
+                                                        <option value="808080">Gray</option>
+                                                        <option value="000000">Black</option>
+                                                        <option value="FF0000">Red</option>
+                                                        <option value="800000">Maroon</option>
+                                                        <option value="FFFF00">Yellow</option>
+                                                        <option value="808000">Olive</option>
+                                                        <option value="00FF00">Lime</option>
+                                                        <option value="008000">Green</option>
+                                                        <option value="00FFFF">Aqua</option>
+                                                        <option value="008080">Teal</option>
+                                                        <option value="0000FF">Blue</option>
+                                                        <option value="000080">Navy</option>
+                                                        <option value="FF00FF">Fuchsia</option>
+                                                        <option value="800080">Purple</option>
+                                        </field>
+                                        <field name="fbstream" type="list" default="false" label="Show stream" description="Choose to show stream or not">
+                                                        <option value="true">Yes</option>
+                                                        <option value="false">No</option>
+                                        </field>
+                                        <field name="fbheader" type="list" default="false" label="Show header" description="Choose to header or not">
+                                                        <option value="true">Yes</option>
+                                                        <option value="false">No</option>
+                                        </field>
+                        </fieldset>
+                        <fieldset name="basic4" label="PREMIUM">
+                                <field type="spacer" name="myspacer1" label="Main gradient colors" />
+                                <field name="gradient1" type="color" default="#ab2c2c" label="Gradient color 1" description="Color" />
+                                <field name="gradient2" type="color" default="#d64b4b" label="Gradient color 2" description="Color" />
+                                <field name="rightCurrent" type="color" default="#ab2c2c" label="Right side navi color current" />
+                                <field type="spacer" name="myspacer2" label="Links colors" />
+                                <field name="bodyCol" type="color" default="#fff" label="Body" description="Color of main body fonts" />
+                                <field name="linkCol" type="color" default="#ff0000" label="Links" description="Color of link fonts" />
+                                <field name="linkColHov" type="color" default="#d64b4b" label="Links hover" description="Color of hover link fonts" />
+                                <field type="spacer" name="myspacer3" label="Navigation menu colors" />
+                                <field name="navCol" type="color" default="#fff" label="Menu links " description="Color" />
+                                <field name="navColHov" type="color" default="#555" label="Menu links hover" description="Color" />
+                                <field type="spacer" name="myspacer4" label="Main gradient colors" />
+                                <field name="buttonTextCol" type="color" default="#fff" label="Button text color" description="Color" />
+                                <field type="spacer" name="myspacer5" label="Body colors" />
+                                <field name="sideNavi" type="color" default="#fff" label="Right side navi color" />
+                                <field name="sideNaviBg" type="color" default="#000" label="Right side navi BG color" />
+                                <field type="spacer" name="myspacer6" label="Tags colors" />
+                                <field name="tagCol" type="color" default="#fff" label="Tag Color" description="Color of tags" />
+                                <field name="tagColBG" type="color" default="#ab2c2c" label="Tag Color BG" description="Color of tags background" />
+                        </fieldset>
+                        <fieldset name="basic7" label="Google Analytics - PREMIUM">
+                                <field name="ganalytics" type="textarea" default="" label="Google Analytics" rows="10" cols="30" filter="raw" description="Put here Google Analytics code or any other counter" />
+                        </fieldset>
+                        <fieldset name="basic8" label="Fonts settings - PREMIUM">
+                                <field name="contentShad" type="list" default="ON" label="Content text shadows" description="Show/Hide Content text shadows">
+                                        <option value="ON">ON</option>
+                                        <option value="OFF">OFF</option>
+                                </field>
+                                <field name="mainfontsType" type="list" default="mainFont0" label="All texts font type" description="Choose your font type for articles and all text">
+                                        <option value="mainFont0">Oswald - (default)</option>
+                                        <option value="mainFont1">Open Sans Condensed - (also Cyrillic)</option>
+                                        <option value="mainFont2">Lobster - (also Cyrillic)</option>
+                                        <option value="mainFont3">Play - (also Cyrillic)</option>
+                                        <option value="mainFont4">Poiret One - (also Cyrillic)</option>
+                                        <option value="mainFont5">Marck Script - (also Cyrillic)</option>
+                                        <option value="mainFont6">Ruslan Display - (also Cyrillic)</option>
+                                        <option value="mainFont7">Titillium</option>
+                                        <option value="mainFont7">Verdana</option>
+                                        <option value="mainFont8">Courier New</option>
+                                        <option value="mainFont9">Tahoma</option>
+                                        <option value="mainFont10">Trebuchet MS</option>
+                                        <option value="mainFont11">Arial Black</option>
+                                        <option value="mainFont12">Times</option>
+                                </field>
+                                <field name="pfontsType" type="list" default="pfont" label="Paragraph font type" description="Choose your font type for articles">
+                                        <option value="pfont">Default</option>
+                                        <option value="pfont1">Verdana</option>
+                                        <option value="pfont2">Courier New</option>
+                                        <option value="pfont3">Tahoma</option>
+                                        <option value="pfont4">Trebuchet MS</option>
+                                        <option value="pfont5">Arial Black</option>
+                                        <option value="pfont6">Times</option>
+                                </field>
+                        </fieldset>
+                        <fieldset name="basic9" label="Autor links - PREMIUM">
+                                <field name="autorLinks" type="list" default="ON" label="Autor links" description="Show/Hide Template design">
+                                        <option value="ON">ON</option>
+                                        <option value="OFF">OFF</option>
+                                </field>
+                        </fieldset>
+                </fields>
+        </config>
+</extension>

@@ -1,0 +1,22 @@
+.ckformbottomborder {
+	padding-top: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+
+.ckformbottom {
+	text-align: center;
+	margin-top: 5px;
+	color: #999;
+}
+
+
+.jgrid span.downarrow {
+    height: 12px!important;
+    width: 12px!important;
+}
+.jgrid span.uparrow {
+    height: 12px!important;
+    width: 12px!important;
+}

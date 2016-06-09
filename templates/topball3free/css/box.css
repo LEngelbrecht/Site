@@ -1,0 +1,57 @@
+.panel {
+	width: 250px;
+	position: absolute;
+	top: 58px;
+	right: 10px;
+	display: none;
+	z-index: 99; 
+	background: #fff;
+}
+
+.panel a:hover {
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+
+a.trigger{
+	position: absolute;
+	top: 10px; 
+	right: 10px;
+	color:#fff;
+	width: 48px;
+	height: 48px;
+	display: block;
+	z-index: 100;
+ 	background: url(../images/fb.png) no-repeat;
+}
+
+a.trigger:hover, a.trigger:focus {
+	outline:none;
+} 
+
+a.active.trigger {
+	background: url(../images/fb.png) no-repeat;
+}
+
+.socBox {
+	padding: 50px 0 0 10px;
+}
+
+.fbic, .twic, .goic, .flickic, .skypeic, .youtubeic, .pinterestic, .rssic, .instaic {
+	display:block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 0 0 5px;
+	}
+
+.fbic { background: url(../images/soc-icons/facebook.png) no-repeat;}
+.twic { background: url(../images/soc-icons/twitter.png) no-repeat;}
+.goic { background: url(../images/soc-icons/google.png) no-repeat;}
+.flickic { background: url(../images/soc-icons/flickr.png) no-repeat;}
+.skypeic { background: url(../images/soc-icons/skype.png) no-repeat;}
+.youtubeic { background: url(../images/soc-icons/youtube.png) no-repeat;}
+.pinterestic { background: url(../images/soc-icons/pinterest.png) no-repeat;}
+.rssic { background: url(../images/soc-icons/rss.png) no-repeat;}
+.instaic { background: url(../images/soc-icons/insta.png) no-repeat;}

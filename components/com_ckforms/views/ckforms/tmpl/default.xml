@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CKFORMS_00">
+		<message>COM_CKFORMS_01</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_ckforms/elements">
+		<fieldset name="request">
+			<field
+				name="id"
+				type="ckforms"
+				label="COM_CKFORMS_02"
+				description="COM_CKFORMS_03"
+			/>
+			
+				
+		</fieldset>
+	</fields>
+</metadata>

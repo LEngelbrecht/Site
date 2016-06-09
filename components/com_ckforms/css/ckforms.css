@@ -1,0 +1,201 @@
+﻿/* CSS CK Forms */
+
+.ckform_tooltip, .ckform_tooltipcss {
+	margin-top: 13px;
+	margin-left: 5px;
+}
+
+.ck_mandatory_desc {
+	margin: 10px 0 0;
+   font-size:0.9em;
+}
+
+.ckform {
+	margin-top: 10px;
+}
+
+.ckformtitleplug {
+	border-bottom: 1px solid #dddddd;
+}
+
+.ckformsblocplug {
+	line-height: 1.0em;
+	margin: 0;
+}
+
+.ckformslabel {
+    margin: 5px 0;
+    width: 30%
+}
+
+.ckform div.error {
+	display: none;
+}
+.ckform .error {
+	margin-bottom: 0;
+}
+
+.ckform div.fc-error {
+	border: none;
+	background:none;
+	float:left;
+	margin-right: 5px;
+	padding: 0px;
+}
+
+.ckform div.fc-error div {
+	margin: 0px;
+	padding: 0px;
+	color:#F00;
+}
+
+.ckform input { 
+ 	border: 1px solid #999;
+	padding: 2px;
+}
+
+.ckform input:focus { 
+ 	border: 1px dotted #999;
+}
+
+.ckform input.error {
+	border: 1px dotted #FF0000;
+	margin-bottom: 0;
+}
+.ckform textarea.error { border: 1px dotted red; }
+.mceLayout {
+    clear: both;
+}
+
+.captchaCont {
+	margin-top: 10px;
+}
+
+.ckBtnCon {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#ckpoweredby {
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ckpoweredby a {color:#666666;}
+
+
+/* CSS layout */
+
+.ckCSSlabel {
+	display: block;
+	float: left;
+	margin-top: 10px;
+	width: 20%;
+	font-size:1em;
+}
+
+.ckCSSinput {
+	width: 76%;
+	margin-top: 6px;
+	background:none;
+}
+
+.ckCSSinput input {
+	background:none;
+}
+
+.ckCSSinputnowidth {
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.ckCSSTip {
+	background-image: url(../img/info-bck.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.tip-title {
+    font-weight: normal !important;
+}
+/*
+.ckCSSclear {
+	margin: 0px;
+	padding: Opx;
+	clear: both;
+}
+*/
+.ckCSSFloatLeft {
+	float: left;
+}
+
+.ckCSSbot10 {margin-bottom: 10px;}
+.ckCSSbot5 {margin-bottom: 5px;}
+.ckCSStop10 {margin-top: 10px;}
+
+.ckCSScenter {
+	text-align:center;
+	margin-top: 10px;
+}
+
+.ckCustomText {
+   clear: both;
+	padding: 5px 0 0;
+}
+
+.ckNoBorder {
+	visibility:hidden;
+}
+
+.ckpagination {
+	text-align:center;
+	margin-bottom: 15px;
+}
+
+.ckdatatable {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-collapse:collapse;
+}
+
+.ckfrontlabel {
+	font-weight: bold;
+	width: 25%;
+}
+
+
+/* Ajout de styles personnels pour fichier SQL exemple */
+.ckCSSlabel {
+    width: 120px;	
+}
+.ckCSSinput {
+    width: auto;
+}
+
+.ckformsbloc_1 {
+	float: left;
+   width: 50%;
+}
+#ckformsbloc_civilite_1,
+#ckformsbloc_niveau_1,
+#ckformsbloc_prochaine_1,
+#ckformsbloc_fichier_1,
+#ckformsbloc_lettre_1,
+#ckformsbloc_texte_1 {
+
+    width: 100%;
+}
+
+.titre_connaissance,
+.titre_rencontre {
+    width: 400px;
+}
+.titre_lettre {
+    width: 220px;	
+}
+.titre_comment {
+	width: 100%;
+}

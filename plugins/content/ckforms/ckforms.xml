@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_CKFORMS</name>
+	<author>Cookex Developpment Team</author>
+	<creationDate>04-06-2012</creationDate>
+	<copyright>Copyright Info</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@cookex.eu</authorEmail>
+	<authorUrl>ckforms.cookex.eu</authorUrl>
+	<version>2.5.0</version>
+	<description>PLG_CONTENT_CKFORMS_DESC</description>
+	<files>
+		<filename plugin="ckforms">ckforms.php</filename>
+		<filename>balise_ckforms.png</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_content_ckforms.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_content_ckforms.sys.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.plg_content_ckforms.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.plg_content_ckforms.sys.ini</language>
+    </languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="displaytitle" type="radio" default="1" label="DISPLAY_FORM_TITLE" description="DISPLAY_FORM_TITLE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="pageclass_sfx" type="text" label="FIELD_PLG_CLASS_SFX_LABEL" description="FIELD_PLG_CLASS_SFX_LABEL_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
